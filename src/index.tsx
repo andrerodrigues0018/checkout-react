@@ -1,6 +1,5 @@
 import * as Popover from '@radix-ui/react-popover';
 import './style.css';
-
 const PopoverDemo = () => (
     <Popover.Root>
         <Popover.Trigger className="PopoverTrigger">More info</Popover.Trigger>
