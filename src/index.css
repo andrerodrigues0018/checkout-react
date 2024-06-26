@@ -20,3 +20,11 @@ body {
 svg {
   display: block;
 }
+
+.SeparatorRoot {
+  background-color: var(--violet-6);
+}
+.SeparatorRoot[data-orientation='horizontal'] {
+  height: 1px;
+  width: 100%;
+}
