@@ -1,15 +1,9 @@
-import * as Popover from '@radix-ui/react-popover';
+import { Container } from '@radix-ui/themes';
 import './style.css';
 const PopoverDemo = () => (
-    <Popover.Root>
-        <Popover.Trigger className="PopoverTrigger">More info</Popover.Trigger>
-        <Popover.Portal>
-            <Popover.Content className="PopoverContent" sideOffset={5}>
-                Some more info…
-                <Popover.Arrow className="PopoverArrow" />
-            </Popover.Content>
-        </Popover.Portal>
-    </Popover.Root>
+    <Container size="1" className='container'>
+        <h2>My App</h2>
+        <p>This is the main content of my app.</p></Container>
 );
 
 export default PopoverDemo;
